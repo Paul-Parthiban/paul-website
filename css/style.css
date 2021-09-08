@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+html,body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+#logo {
+    width: 100px;
+}
+
+#bg {
+    background-image: url('../Images/Background.jpg');
+    padding-bottom: 400px;
+    padding-top: 350px;
+}
+
+#bg-name {
+    color: white;
+    font-family: 'Indies Flower', cursive;
+    font: bolder;
+    font-size: 6rem;
+    text-align: center;
+}
+
+#python {
+    border-radius: 100%;
+    width: 300px;
+}
+
+#webdev {
+    border: 100%;
+    width: 175px;
+}
+
+#space {
+    border-radius: 100%;
+    width: 220px;
+}
+
+#intrests {
+    font-size: 2rem;
+    position: relative;
+    text-align: center;
+    font-family: 'Indies Flower', cursive;
+}
+
+
+#features {
+    padding: 7% 15%;
+}
+
+.school {
+    text-align: center;
+    padding: 5%;
+}
+
+#projects-btn {
+    width: 200px;
+    height: 50px;
+}
+
+#berkley-school {
+    width: 1300px;
+    position: relative;
+    right: 90px;
+    height: 545px;
+}
+
+#jfk {
+    position: relative;
+    right: 150px;
+    width: 1500px;
+    height: 545px;
+}
+
+#berkley {
+    position: relative;
+    right: 50px;
+    color: blue;
+    padding-top: 2%;
+}
+
+#berkley-des {
+    position: relative;
+    right: 50px;
+    font-weight: bold;
+    color: #474646;
+}
+
+footer {
+    background-color: #474646;
+    height: 590px;
+}
+
+footer .about {
+    color: white;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    text-decoration: underline;
+}
+
+footer .abt {
+    color: white;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    padding-top: 10px;
+    font-size: 1.3rem;
+}
+
+footer .menu {
+    color: white;
+    position: relative;
+    bottom: 240px;
+    color: white;
+    text-decoration: underline;
+    left: 1500px;
+}
+
+footer .menu-items {
+    color: grey;
+    list-style: none;
+    font-size: 1.4rem;
+    position: relative;
+    bottom: 230px;
+    left: 1500px;
+}
+
+#home:hover {
+    color: white;
+    cursor: pointer;
+}
+
+#about:hover {
+    color: white;
+    cursor: pointer;
+}
+
+#projects:hover {
+    color: white;
+    cursor: pointer;
+}
+
+#contacts:hover {
+    color: white;
+    cursor: pointer;
+}
+
+#weather:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.card {
+    width: 200px;
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+    left: 100px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: lightgrey;
+}
+
+
+
+footer {
+    height: fit-content;
+    background-color: rgba(128, 128, 128, 0.5);
+    padding-top: 10px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+}
+
+footer .fab, footer .fas {
+    color: white;
+    font-size: 30px;
+    margin: 30px;
+}
+
+footer .fab:hover {
+    color: hotpink;
+}
+
+footer .fas:hover {
+    color: hotpink;
+}

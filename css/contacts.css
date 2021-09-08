@@ -1,0 +1,96 @@
+html,body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+#bg {
+    background-image: url('../Images/Background.jpg');
+    padding-bottom: 400px;
+    padding-top: 350px;
+}
+
+
+#bg-name {
+    color: white;
+    font-family: 'Indies Flower', cursive;
+    font: bolder;
+    font-size: 6rem;
+    text-align: center;
+}
+
+#floatingInput {
+  border-bottom-left-radius: 0%;
+  border-bottom-right-radius: 0%;
+  width: 285px;
+}
+
+#floatingEmail {
+  border-top-left-radius: 0%;
+  border-top-right-radius: 0%;
+  border-bottom-left-radius: 0%;
+  border-bottom-right-radius: 0%;
+  border-top-width: 0px;
+}
+
+#floatingMessage {
+  border-top-left-radius: 0%;
+  border-top-right-radius: 0%;
+  border-top-width: 0px;
+}
+
+iframe {
+  position: relative;
+  right: 160px;
+  margin-top: 100px;
+}
+
+@media screen and (max-width: 1028px) {
+  iframe {
+    width: 300px;
+    right: 0;
+  }
+}
+
+
+footer {
+  height: fit-content;
+  background-color: rgba(128, 128, 128, 0.5);
+  padding-top: 10px;
+  margin-top: 100px;
+  text-align: center;
+}
+
+footer p {
+  color: white;
+}
+
+footer .fab, footer .fas {
+  color: white;
+  font-size: 30px;
+  margin: 30px;
+}
+
+footer .fab:hover {
+  color: hotpink;
+}
+
+footer .fas:hover {
+  color: hotpink;
+}
+
+.info {
+  display: flex;
+  white-space: pre;
+  margin-top: 50px;
+}
+
+.email {
+  margin-right: 5%;
+}

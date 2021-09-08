@@ -1,0 +1,173 @@
+:root {
+    --primary-color: #5fbaa7;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: #f4f4f4;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  /* display: flex; */
+  align-items: center;
+  /* padding-bottom: 40px; */
+  background-color: #f5f5f5;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+select {
+  margin-top: 10%;
+  margin-bottom: 2%;
+  height: 40px;
+  width: 80px;
+  border: 1px solid #5fbaa7;
+  border-bottom: 3px solid #5fbaa7;
+}
+
+.form-control {
+  border: 1px solid #5fbaa7;
+  border-bottom: 3px solid #5fbaa7;
+}
+
+.swap-button {
+  width: 100px;
+  padding: 1%;
+  margin-top: 30px;
+  background: transparent;
+  border: 1.5px solid #5fbaa7;
+}
+
+.swap-button:hover {
+  background-color: #5fbaa7;
+  color: #f5f5f5;
+}
+
+
+.card {
+  width: 200px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  left: 100px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.container .row div.footer-card {
+  border-top-left-radius: 0%;
+  border-top-right-radius: 0%;
+  left: 100px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: lightgrey;
+}
+
+#paul {
+  width: 200px;
+  border-radius: 10px;
+  border-bottom-left-radius: 0%;
+  border-bottom-right-radius: 0%;
+  position: relative;
+  left: 100px;
+  height: 336px;
+}
+
+
+
+#phone {
+  font-size: 150px;
+  background-color: lime;
+  text-align: center;
+  height: 336px;
+  width: 200px;
+  position: relative;
+  left: 100px;
+  padding-top: 5%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#menu {
+  font-size: 150px;
+  background-color: lime;
+  text-align: center;
+  height: 240px;
+  width: 200px;
+  position: relative;
+  left: 100px;
+  padding-top: 5%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+footer {
+  position: relative;
+  top: 400px;
+  background-color: #474646;
+  height: 600px;
+}
+
+.footer-text {
+  position: relative;
+  bottom: 30px;
+}
+
+#hover-text:hover {
+  color: red;
+}
+
+@media screen and (max-width: 1028px) {
+  .container .row div.footer-card {
+      left: 90px;
+  }
+
+  #paul {
+      left: 90px;
+  }
+
+  #phone {
+      left: 90px;
+  }
+
+  #menu {
+      left: 90px;
+  }
+
+  footer {
+      height: 1700px;
+  }
+}

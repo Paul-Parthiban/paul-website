@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+html,body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    overflow-y:unset;
+    height: 100%;
+}
+
+
+
+#bg {
+    background-image: url('../Images/Background.jpg');
+    padding-bottom: 400px;
+    padding-top: 350px;
+}
+
+#bg-name {
+    color: white;
+    font-family: 'Indies Flower', cursive;
+    font: bolder;
+    font-size: 6rem;
+    text-align: center;
+}
+
+section div .row .fas {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 11rem;
+    padding-left: 17%;
+    background-color: greenyellow;
+    color: #0b0b77;
+    padding-top: 10px;
+    height: 200px;
+    
+}
+
+
+
+section div .row .card {
+    width: 18rem;
+    color: #0b0b77;
+    position: relative;
+    left: 70px;
+    transition: transform 1s;
+}
+
+section div .row .card:hover {
+    transform: translateY(50%);
+    transform: rotate(360deg);
+}
+
+section div .row .card:hover {
+    border-color: #0b0b77;
+    border-width: 5px;
+    width: 18rem;
+}
+
+ h3 {
+    text-align: center;
+    font-family:Verdana, sans-serif;
+    font-weight: bold;
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+
+.paul {
+    width: 200px;
+    position: relative;
+    bottom: 90px;
+    left: 800px;
+}
+
+.pong {
+    height: 533px;
+}
+
+.money {
+    height: 533px;
+}
+
+@media screen and (max-width: 1028px) {
+    section div .row .card {
+        left: 200px;
+    }
+}
+
+#read-more {
+    position: relative;
+    left: 100px;
+}
+
+.card {
+    width: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    left: 100px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.container .row div.footer-card {
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+    left: 100px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: lightgrey;
+}
+
+
+footer {
+    height: fit-content;
+    background-color: rgba(128, 128, 128, 0.5);
+    padding-top: 10px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+}
+
+footer .fab, footer .fas {
+    color: white;
+    font-size: 30px;
+    margin: 30px;
+}
+
+footer .fab:hover {
+    color: hotpink;
+}
+
+footer .fas:hover {
+    color: hotpink;
+}
+
+

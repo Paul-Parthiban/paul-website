@@ -1,0 +1,145 @@
+body {
+    align-items: center;
+    justify-self: center;
+    text-align: center;
+    background-image: url("../Images/Space.jpeg");
+    background-size: cover;
+}
+
+select {
+    height: 50px;
+    border: 3px solid #811a1a;
+    border-bottom: 8px solid #811a1a;
+    background-color: #b0d4f3;
+    border-radius: 5px;
+    margin: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+select:hover {
+    background-color: #92c7f6;
+    border-color: #b0d4f3;
+}
+
+input {
+    height: 50px;
+    border: 3px solid #811a1a;
+    border-radius: 5px;
+    border-bottom: 8px solid #811a1a;
+    background-color: #b0d4f3;
+    margin: 1%;
+}
+
+input:hover {
+    background-color: #92c7f6;
+    border-color: #b0d4f3;
+}
+
+
+.forward {
+    border: 3px solid #811a1a;
+    width: 80px;
+    height: 80px;
+    font-size: 3rem;
+    background-color: #b0d4f3;
+    position: relative;
+    border-radius: 10px;
+}
+
+.play {
+    border: 3px solid #811a1a;
+    width: 80px;
+    height: 80px;
+    font-size: 3rem;
+    background-color: #b0d4f3;
+    position: relative;
+    border-radius: 10px;
+}
+
+.back {
+    border: 3px solid #811a1a;
+    width: 80px;
+    height: 80px;
+    font-size: 3rem;
+    background-color: #b0d4f3;
+    position: relative;
+    border-radius: 10px;
+}
+
+.control {
+    align-items: center;
+}
+
+
+#submit {
+    border-radius: 5px;
+    border: 3px solid #811a1a;
+    border-bottom: 8px solid #811a1a;
+    height: 51px;
+    width: 100px;
+    background-color: #b0d4f3;
+}
+
+#submit:hover {
+    background-color: #92c7f6;
+    border-color: #b0d4f3;
+}
+
+.forward:hover {
+    background-color: #92c7f6;
+    border-color: #b0d4f3;
+}
+
+.back:hover {
+    background-color: #92c7f6;
+    border-color: #b0d4f3;
+}
+
+#image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    padding-top: 20px;
+}
+
+#content {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+
+#content h3 {
+    background-color: #811a1a;
+    width: 40%;
+    position: relative;
+    left: 571px;
+    height: 150px;
+    padding-top: 50px;
+}
+
+.info {
+    background-color: #b0d4f3;
+    width: 40%;
+    position: relative;
+    left: 571px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    bottom: 23px;
+}
+
+@media only screen and (max-width: 1028px) {
+    img {
+        width: 100%;
+    }
+
+    #content h3 {
+        left: 0;
+        width: 100%;
+    }
+
+    .info {
+        left: 0;
+        width: 100%;
+    }
+
+}
