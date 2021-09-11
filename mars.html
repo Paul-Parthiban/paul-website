@@ -31,15 +31,14 @@
   />
   <!-- Custom CSS -->
   <link rel="stylesheet" href="css\toggleSwitch.css">
-  <link rel="icon" href="Images\favicon.ico" type="image/ico">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <link rel="stylesheet" href="css\mars.css">
 </head>
-<body>
+<body onload="validator()">
     <section>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-              <img src="Images\Logo.png" width="100px">
+              <img src="Images\Logo.png" width="100px" class="logo">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -80,6 +79,16 @@
       
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      MUSIC
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                      <li><a class="dropdown-item" href="piano.html">PIANO</a></li>
+                      <li><a class="dropdown-item" href="drum.html">DRUM</a></li>
+                    </ul>
+                  </li>
+      
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       MATH
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
@@ -97,6 +106,7 @@
             </div>
           </nav>
     </section>
+    <main>
     <div class="control">
         <select id="rover">
             <option selected>Curiosity</option>
@@ -120,19 +130,25 @@
     </div>
     <button class="back" id="back" onclick="back()"><</button>
     <button class="forward" id="forward" onclick="forward()">></button>
-    <img src="http://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/00123/opgs/edr/fcam/FRA_408419964EDR_F0051070FHAZ00304M_.JPG" id="image">
 
-    <div id="content">
-        <h3>Information</h3>
-        <div class="info">
-            <p id="sol"></p>
-            <p id="camreaName"></p>
-            <p id="roverName"></p>
-            <p id="roverStatus"></p>
-            <p id="roverLaunchDate"></p>
-            <p id="roverLandingDate"></p>
+    <div class="img-info">
+      <img src="http://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/00123/opgs/edr/fcam/FRA_408419964EDR_F0051070FHAZ00304M_.JPG" id="image">
+
+      <div class="wrapper">
+        <div id="content">
+            <h3>Information</h3>
+            <div class="info">
+                <p id="sol"></p>
+                <p id="camreaName"></p>
+                <p id="roverName"></p>
+                <p id="roverStatus"></p>
+                <p id="roverLaunchDate"></p>
+                <p id="roverLandingDate"></p>
+            </div>
         </div>
     </div>
+
+  </main>
 
     <script src="mars.js"></script>
 </body>
