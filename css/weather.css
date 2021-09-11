@@ -7,9 +7,7 @@ body {
 }
 
 #zip-code {
-    position: relative;
-    top: 50px;
-    left: 860px;
+    margin-top: 100px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 7px;
     border-top-left-radius: 7px;
@@ -22,23 +20,6 @@ body {
     border-bottom: 4px solid #5fbaa7;
 }
 
-#continent {
-  position: relative;
-  top: 50px;
-  left: 860px;
-  border-radius: 10px;
-  height: 60px;
-  width: 200px;
-  font-size: 1.2rem;
-  font-family: cursive;
-}
-
-
-@media screen and (max-width: 1028px) {
-    #zip-code {
-        left: 390px;
-    }
-}
 
 main {
     flex: 1 1 100%;
