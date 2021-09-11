@@ -21,6 +21,12 @@ body {
 }
 
 
+@media screen and (max-width: 1028px) {
+    #zip-code {
+        left: 390px;
+    }
+}
+
 main {
     flex: 1 1 100%;
     padding-top: 25px 25px 50px;
